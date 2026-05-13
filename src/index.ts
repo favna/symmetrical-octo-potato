@@ -19,7 +19,7 @@ const app = new App({
 export const externalGroup = await app.octokit.request(
   "GET /orgs/{org}/teams/{team_slug}/external-groups",
   {
-    org: '',
+    org: "",
     team_slug: "",
   },
 );
