@@ -1,0 +1,22 @@
+{
+  "name": "octokit-enterprise-cloud-bug-report",
+  "version": "1.0.0",
+  "description": "Bug report for Octokit Enterprise Cloud",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@octokit/app": "16.1.2",
+    "@octokit/core": "7.0.6",
+    "@octokit/plugin-enterprise-cloud": "15.2.1",
+    "@octokit/plugin-paginate-rest": "14.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "17.0.0",
+    "typescript": "6.0.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0"
+  }
+}
